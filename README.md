@@ -32,20 +32,20 @@ Além disto é bom ter um editor para trabalhar com o código como o [VSCode](ht
 
 Clone o repositório:
 ```bash
-$ git clone <https://github.com/jessicalopess/maisPraTi>
+git clone https://github.com/jessicalopess/maisPraTi
 ```
 
 Acesse a pasta do projeto no terminal:
 ```bash
-$ cd maisPraTi
+cd maisPraTi
 ```
 
 Instale a biblioteca `prompt-sync`, que será necessária para a execução do código:
 ```bash
-$ npm install prompt-sync
+npm install prompt-sync
 ```
 
 Execute o arquivo do exercício:
 ```bash
-$ node nome-do-arquivo.js
+node nome-do-arquivo.js
 ```
