@@ -31,38 +31,21 @@ Além disto é bom ter um editor para trabalhar com o código como o [VSCode](ht
 ## Instalação
 
 Clone o repositório:
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> 421234a5bd95a7ac4f19d34ebd6aec9e3e5da69e
 git clone https://github.com/jessicalopess/maisPraTi
 ```
 
 Acesse a pasta do projeto no terminal:
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> 421234a5bd95a7ac4f19d34ebd6aec9e3e5da69e
 cd maisPraTi
 ```
 
 Instale a biblioteca `prompt-sync`, que será necessária para a execução do código:
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> 421234a5bd95a7ac4f19d34ebd6aec9e3e5da69e
 npm install prompt-sync
 ```
 
 Execute o arquivo do exercício:
-<<<<<<< HEAD
-=======
-```bash
-node nome-do-arquivo.js
->>>>>>> 421234a5bd95a7ac4f19d34ebd6aec9e3e5da69e
 ```
 node nome-do-arquivo.js
 ```
