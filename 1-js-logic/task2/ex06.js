@@ -6,7 +6,7 @@
 let funcionarios = [
     { nome: "Lara", cargo: "Desenvolvedora", salario: 5000 },
     { nome: "Helena", cargo: "Gerente", salario: 7000 },
-    { nome: "Luísa", cargo: "Estagiário", salario: 1500 }
+    { nome: "Luísa", cargo: "Estagiária", salario: 1500 }
 ];
 
 for (let funcionario of funcionarios) {

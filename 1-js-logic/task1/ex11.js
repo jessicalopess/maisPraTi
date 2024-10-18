@@ -3,10 +3,9 @@
 const prompt = require('prompt-sync')();
 
 let soma = 0;
-let num;
 
 for (let i = 1; i <= 5; i++) {
-    num = Number(prompt(`Insira o ${i}º número: `));
+    let num = Number(prompt(`Insira o ${i}º número: `));
     soma += num;
 }
 

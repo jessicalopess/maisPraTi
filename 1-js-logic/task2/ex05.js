@@ -4,12 +4,12 @@
 */
 
 let alunos = [
-    { nome: "Julia", nota1: 10.0, nota2: 8.0 },
-    { nome: "Alicia", nota1: 8.0, nota2: 6.0 },
-    { nome: "Pedro", nota1: 7.0, nota2: 5.0 }
+    { nome: "Julia", nota1: 10, nota2: 8 },
+    { nome: "Alicia", nota1: 8, nota2: 6 },
+    { nome: "Pedro", nota1: 7, nota2: 5 }
 ];
 
 for (let aluno of alunos) {
     let media = (aluno.nota1 + aluno.nota2) / 2;
-    console.log(`Nome: ${aluno.nome}, Média: ${media.toFixed(2)}`);
+    console.log(`Nome: ${aluno.nome}, Média: ${media}`);
 }

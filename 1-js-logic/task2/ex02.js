@@ -12,8 +12,8 @@ let livro = {
 
 let propriedadeExiste = false;
 
-for (let key in livro) {
-    if (key === "editora") {
+for (let propriedade in livro) {
+    if (propriedade === "editora") {
         propriedadeExiste = true;
         break;
     }

@@ -9,14 +9,14 @@
 
 const prompt = require('prompt-sync')();
 
-let a = Number(prompt("Insira o valor do lado A: "));
-let b = Number(prompt("Insira o valor do lado B: "));
-let c = Number(prompt("Insira o valor do lado C: "));
+let A = Number(prompt("Insira o valor do lado A: "));
+let B = Number(prompt("Insira o valor do lado B: "));
+let C = Number(prompt("Insira o valor do lado C: "));
 
-if (a < b + c && b < a + c && c < a + b) {
-    if (a === b && b === c) {
+if (A < B + C && B < A + C && C < A + B) {
+    if (A === B && B === C) {
         console.log("Triângulo Equilátero");
-    } else if (a === b || a === c || b === c) {
+    } else if (A === B || A === C || B === C) {
         console.log("Triângulo Isósceles");
     } else {
         console.log("Triângulo Escaleno");

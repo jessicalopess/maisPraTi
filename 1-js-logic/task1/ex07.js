@@ -2,13 +2,13 @@
 
 const prompt = require('prompt-sync')();
 
-let qtd = Number(prompt("Insira a quantidade de maçãs compradas: "));
+let quantidade = Number(prompt("Insira a quantidade de maçãs compradas: "));
 let total;
 
-if (qtd < 12) {
-    total = qtd * 0.30;
+if (quantidade < 12) {
+    total = quantidade * 0.30;
 } else {
-    total = qtd * 0.25;
+    total = quantidade * 0.25;
 }
 
 console.log(`O valor total da compra é: R$ ${total.toFixed(2)}`);

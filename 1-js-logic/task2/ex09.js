@@ -9,12 +9,12 @@ let clientes = [
     { nome: "Helena", idade: 34, cidade: "São Paulo" }
 ];
 
-let clientesMaisDe30 = 0;
+let contador = 0;
 
 clientes.forEach(cliente => {
     if (cliente.idade > 30) {
-        clientesMaisDe30++;
+        contador++;
     }
 });
 
-console.log(`Número de clientes com mais de 30 anos: ${clientesMaisDe30}`);
+console.log(`Número de clientes com mais de 30 anos: ${contador}`);

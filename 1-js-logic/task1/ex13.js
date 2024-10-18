@@ -3,9 +3,8 @@
 const prompt = require('prompt-sync')();
 
 let num = Number(prompt("Insira o primeiro número: "));
-
-let total = 0;
 let soma = 0;
+let total = 0;
 
 while (num !== 0) {
     soma += num;
@@ -14,7 +13,8 @@ while (num !== 0) {
 }
 
 if (total > 0) {
-    console.log("A média aritmética é:", soma / total);
+    let media = soma / total;
+    console.log("A média aritmética é:", media);
 } else {
     console.log("Nenhum número foi inserido.");
 }

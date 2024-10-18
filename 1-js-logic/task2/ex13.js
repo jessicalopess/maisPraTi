@@ -17,4 +17,4 @@ carrinho.itens.forEach(item => {
     valorTotal += item.quantidade * item.precoUnitario;
 });
 
-console.log(`Valor total do carrinho: R$${valorTotal.toFixed(2)}`);
+console.log(`Valor total do carrinho: R$${valorTotal}`);

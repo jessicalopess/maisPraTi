@@ -9,12 +9,12 @@ let produto = {
     quantidade: 5
 };
 
-let novoProduto = {};
+let novoObjeto = {};
 
-for (let key in produto) {
-    if (produto[key] > 15) {
-        novoProduto[key] = produto[key]
+for (let propriedade in produto) {
+    if (produto[propriedade] > 15) {
+        novoObjeto[propriedade] = produto[propriedade];
     }
 }
 
-console.log(novoProduto);
+console.log(novoObjeto);

@@ -6,23 +6,19 @@
 let empresa = {
     departamentos: [
         {
-            nome: "Recursos Humanos",
-            funcionarios: ["Helena", "Julia", "Julio"]
-        },
-        {
             nome: "Tecnologia",
-            funcionarios: ["Luísa", "Lara", "Lucas"]
+            funcionarios: ["Lara", "Luísa"]
         },
         {
             nome: "Marketing",
-            funcionarios: ["Camila", "Alicia", "Pedro"]
+            funcionarios: ["Helena","Camila"]
         }
     ]
 };
 
-for (let key in empresa.departamentos) {
-    let departamento = empresa.departamentos[key];
-    for (let funcionario of departamento.funcionarios) {
-        console.log(`Funcionário: ${funcionario}, Departamento: ${departamento.nome}`);
+for (let departamento in empresa.departamentos) {
+    let dept = empresa.departamentos[departamento];
+    for (let funcionario of dept.funcionarios) {
+        console.log(`Funcionário: ${funcionario}, Departamento: ${dept.nome}`);
     }
 }

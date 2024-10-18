@@ -5,5 +5,5 @@ const prompt = require('prompt-sync')();
 let num = Number(prompt("Informe o número que você quer saber a tabuada: "));
 
 for (let i = 1; i <= 10; i++) {
-    console.log(`${num} * ${i} =`, num * i);
+    console.log(`${num} x ${i} =`, num * i);
 }

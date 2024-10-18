@@ -10,6 +10,6 @@ let carro = {
     cor: "Preto"
 };
 
-for (let key in carro) {
-    console.log(`${key}: ${carro[key]}`);
+for (let propriedade in carro) {
+    console.log(`${propriedade}: ${carro[propriedade]}`);
 }
