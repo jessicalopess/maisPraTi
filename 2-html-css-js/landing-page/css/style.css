@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-primaria: #2A2F4F;
+    --cor-secundaria: #FDE2F3;
+    --cor-terciaria: #E5BEEC;
+    --cor-hover: #917FB3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+header {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+nav li a:hover {
+    color: var(--cor-hover);
+}
+
+main {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section img { 
+    max-width: 60%;
+    display: block;
+    height: auto;
+    margin: 20px auto;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 32px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+aside li a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 20px 0;
+    gap: 16px;
+}
+
+aside li a:hover {
+    background-color: var(--cor-hover);
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: 20px 0;
+}
