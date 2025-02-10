@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Moon Coffee</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.svg" alt="Logo Moon Coffee">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#products" class="nav-link">Produtos</a></li>
+                        <li class="nav-item"><a href="#testimonials" class="nav-link">Testemunhos</a></li>
+                        <li class="nav-item"><a href="#contact" class="btn btn-dark ms-4">Entre em Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/slide1.png" alt="Slide 1" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="images/slide2.png" alt="Slide 2" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="images/slide3.png" alt="Slide 3" class="img-fluid"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <section id="about">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-md-6">
+                        <h2 class="fw-bold mb-4">Sobre nós</h2>
+                        <p class="lead">Na Moon Coffee, acreditamos que o café é mais do que uma bebida: é uma experiência que traz conforto e conexão. Somos apaixonados por cada detalhe, desde a seleção cuidadosa dos grãos até a criação de um ambiente acolhedor. Nossa equipe é dedicada a fazer cada visita especial, oferecendo cafés de alta qualidade e um espaço tranquilo para quem quer relaxar, trabalhar ou apenas apreciar um bom café. Aqui, cada gole é um convite para desacelerar e se conectar com o momento.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/about.png" alt="About" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="container">
+                    <div class="row text-center py-5 bg-light">
+                        <h2 class="fw-bold mb-4">Produtos</h2>
+                        <div class="col-md-4">
+                            <img src="images/coffee1.png" alt="Coffee 1" class="img-fluid">
+                            <h3 class="fw-bold mt-3">Cappuccino</h3>
+                            <p>Café expresso com leite vaporizado e uma cremosa camada de espuma, finalizado com canela ou chocolate.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/coffee2.png" alt="Coffee 2" class="img-fluid">
+                            <h3 class="fw-bold mt-3">Expresso</h3>
+                            <p>Café puro, preparado de forma clássica, com sabor intenso e aroma reconfortante.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/coffee3.png" alt="Coffee 3" class="img-fluid">
+                            <h3 class="fw-bold mt-3">Latte Art</h3>
+                            <p>Café expresso com leite vaporizado, decorado com desenhos na espuma para tornar sua experiência única e especial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="container">
+                    <div class="row text-center py-5">
+                        <h2 class="fw-bold mb-4">Depoimentos</h2>
+                        <div class="col-md-4">
+                            <img src="images/avatar1.png" alt="Avatar 1" class="img-fluid mb-3">
+                            <h5 class="fw-bold mt-3">Carolina Rocha</h5>
+                            <p class="fw-bold">"Simplesmente apaixonada pela experiência! O café é incrível, e o ambiente é perfeito para relaxar. Com certeza voltarei."</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/avatar2.png" alt="Avatar 2" class="img-fluid mb-3">
+                            <h5 class="fw-bold mt-3">Matheus Lima</h5>
+                            <p class="fw-bold">"Melhor café da região! O atendimento foi impecável, e o latte com especiarias é simplesmente único."</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/avatar3.png" alt="Avatar 3" class="img-fluid mb-3">
+                            <h5 class="fw-bold mt-3">Julia Oliveira</h5>
+                            <p class="fw-bold">"Ambiente minimalista, tranquilo e com ótimas opções no cardápio. Recomendo para quem busca algo especial."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-md-6">
+                        <img src="images/contact.png" alt="Contact" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="fw-bold mb-4">Entrar em Contato</h2>
+                        <form id="contact-form">
+                            <input type="text" id="name" name="name" placeholder="Nome" class="form-control mb-3" required>
+                            <input type="email" id="email" name="email" placeholder="E-mail" class="form-control mb-3" required>
+                            <input type="tel" id="phone" name="phone" placeholder="Telefone" class="form-control mb-3" required>
+                            <textarea name="message" id="message" placeholder="Mensagem" class="form-control mb-3" required></textarea>
+                            <button type="submit" class="btn btn-dark px-4 py-2">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <hr class="mb-3">
+            <div class="d-flex justify-content-between align-items-center flex-wrap py-4">
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-dark">Política de Privacidade</a>
+                    <a href="#" class="text-dark">Termos de Uso</a>
+                </div>
+                <p class="mb-0 text-center">Moon Coffee &copy; 2024. Todos os direitos reservados.</p>
+                <div class="d-flex gap-3">
+                    <a href="https://whatsapp.com" class="text-dark" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+                    <a href="https://instagram.com" class="text-dark" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://facebook.com" class="text-dark" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
