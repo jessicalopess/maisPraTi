@@ -1,8 +1,10 @@
 # Trilha Full Stack Developer Júnior +praTi | Codifica Edu
 
-Bem-vindo ao repositório da **Trilha Full Stack Developer Júnior** da [+praTi](www.maisprati.com.br/) com a [Codifica Edu](www.codificaedu.com.br). Este curso é projetado para fornecer habilidades práticas e teóricas em desenvolvimento full stack, cobrindo tecnologias modernas e ferramentas essenciais para o desenvolvimento web.
+## Visão Geral
 
-## Tecnologias e Ferramentas
+Bem-vindo ao repositório da **Trilha Full Stack Developer Júnior** da [+praTi](https://www.maisprati.com.br) com a [Codifica Edu](https://www.codificaedu.com.br). Este curso é projetado para fornecer habilidades práticas e teóricas em desenvolvimento full stack, cobrindo tecnologias modernas e ferramentas essenciais para o desenvolvimento web.
+
+### Tecnologias e Ferramentas
 
 - **Front-End:**
     - **React:** Desenvolvimento de interfaces de usuário modernas e responsivas.
@@ -20,32 +22,33 @@ Bem-vindo ao repositório da **Trilha Full Stack Developer Júnior** da [+praTi]
 - **Controle de Versão:**
     - **Git:** Controle de versão distribuído para acompanhamento de alterações no código.
 
-## Pré-requisitos
+## Estrutura do Curso
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-- [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/pt/)
+O curso está dividido em módulos que abrangem diversos aspectos do desenvolvimento full stack:
 
-Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
+1. **Introdução ao Desenvolvimento Web:**
+    - Fundamentos de HTML, CSS e JavaScript
+    - Conceitos básicos de desenvolvimento web
 
-## Instalação
+2. **Front-End com React:**
+    - Componentes e Estado
+    - Hooks e Context API
+    - Integração com APIs
 
-Clone o repositório:
-```
-git clone https://github.com/jessicalopess/maisPraTi
-```
+3. **Fundamentos de Java:**
+    - Sintaxe e Estruturas de Controle
+    - Orientação a Objetos
+    - Collections e Estruturas de Dados
+  
+4. **Integração de Banco de Dados:**
+    - Modelagem de Banco de Dados
+    - Operações CRUD com MySQL e PostgreSQL
 
-Acesse a pasta do projeto no terminal:
-```
-cd maisPraTi
-```
+5. **Desenvolvimento Back-End com Spring Boot:**
+    - Configuração de Projetos Spring
+    - RESTful APIs
+    - Segurança e Autenticação
 
-Instale a biblioteca `prompt-sync`, que será necessária para a execução do código:
-```
-npm install prompt-sync
-```
-
-Execute o arquivo do exercício:
-```
-node nome-do-arquivo.js
-```
+6. **Práticas de DevOps:**
+    - Controle de Versão com Git
+    - Automatização de Builds e Deploy
